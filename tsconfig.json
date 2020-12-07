@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers": false,
+    "sourceMap": true
+  },
+  "files": [
+    "./src/account.spec.ts",
+    "./src/account.ts",
+    "./src/app/app.spec.ts",
+    "./src/app/app.ts",
+    "./src/bank.spec.ts",
+    "./src/bank.ts",
+    "./src/bootstrap.ts",
+    "./src/components/AccountOperationsComponent.spec.ts",
+    "./src/components/AccountOperationsComponent.ts",
+    "./src/components/ShowBalancesComponent.spec.ts",
+    "./src/components/ShowBalancesComponent.ts",
+    "./src/vendor.ts",
+    "./src/polyfills.ts",
+    "./test/injector.spec.ts",
+    "./test/sanity-test.spec.ts"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./test/**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
